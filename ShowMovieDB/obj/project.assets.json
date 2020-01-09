@@ -2974,6 +2974,15 @@
           }
         }
       },
+      "StyleCop.Analyzers/1.2.0-beta.113": {
+        "type": "package",
+        "dependencies": {
+          "StyleCop.Analyzers.Unstable": "1.2.0.113"
+        }
+      },
+      "StyleCop.Analyzers.Unstable/1.2.0.113": {
+        "type": "package"
+      },
       "System.AppContext/4.3.0": {
         "type": "package",
         "dependencies": {
@@ -7669,6 +7678,45 @@
         "version.txt"
       ]
     },
+    "StyleCop.Analyzers/1.2.0-beta.113": {
+      "sha512": "MUwtTDGd8Cgb1YAyAL88U1cpH3hlrS0CS/dcxp/deqVa7Gh6V4U1XJZ9sZkfjGeL+Cbhq4KV8mo98d9wJ4RVsA==",
+      "type": "package",
+      "path": "stylecop.analyzers/1.2.0-beta.113",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE",
+        "THIRD-PARTY-NOTICES.txt",
+        "stylecop.analyzers.1.2.0-beta.113.nupkg.sha512",
+        "stylecop.analyzers.nuspec"
+      ]
+    },
+    "StyleCop.Analyzers.Unstable/1.2.0.113": {
+      "sha512": "/RIaSRC+5YFK0ZGxHVTK+UaFp8H0k7oIVWpz2NmjRl5oeMo/j+C8Jitfh3QZY6rQ70CGkOyPtS8UlUDua2pMVA==",
+      "type": "package",
+      "path": "stylecop.analyzers.unstable/1.2.0.113",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE",
+        "THIRD-PARTY-NOTICES.txt",
+        "analyzers/dotnet/cs/StyleCop.Analyzers.CodeFixes.dll",
+        "analyzers/dotnet/cs/StyleCop.Analyzers.dll",
+        "analyzers/dotnet/cs/de-DE/StyleCop.Analyzers.resources.dll",
+        "analyzers/dotnet/cs/en-GB/StyleCop.Analyzers.resources.dll",
+        "analyzers/dotnet/cs/es-MX/StyleCop.Analyzers.resources.dll",
+        "analyzers/dotnet/cs/fr-FR/StyleCop.Analyzers.resources.dll",
+        "analyzers/dotnet/cs/pl-PL/StyleCop.Analyzers.resources.dll",
+        "analyzers/dotnet/cs/pt-BR/StyleCop.Analyzers.resources.dll",
+        "analyzers/dotnet/cs/ru-RU/StyleCop.Analyzers.resources.dll",
+        "rulesets/StyleCopAnalyzersDefault.ruleset",
+        "stylecop.analyzers.unstable.1.2.0.113.nupkg.sha512",
+        "stylecop.analyzers.unstable.nuspec",
+        "tools/install.ps1",
+        "tools/uninstall.ps1"
+      ]
+    },
     "System.AppContext/4.3.0": {
       "sha512": "itLzcQfp7fIzmhMKaSaaGLcZEyLztpd6bL6GX3kCBXwzb0Wg6c+Z9lASYo5IbaPJ6k1BZpm3oNfqQf7Cevjv7w==",
       "type": "package",
@@ -12069,7 +12117,8 @@
     ".NETCoreApp,Version=v2.2": [
       "Microsoft.AspNetCore.App >= 2.2.0",
       "Microsoft.AspNetCore.Razor.Design >= 2.2.0",
-      "Microsoft.NETCore.App >= 2.2.0"
+      "Microsoft.NETCore.App >= 2.2.0",
+      "StyleCop.Analyzers >= 1.2.0-beta.113"
     ]
   },
   "packageFolders": {
@@ -12129,6 +12178,12 @@
             "target": "Package",
             "version": "[2.2.0, )",
             "autoReferenced": true
+          },
+          "StyleCop.Analyzers": {
+            "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+            "suppressParent": "All",
+            "target": "Package",
+            "version": "[1.2.0-beta.113, )"
           }
         },
         "imports": [

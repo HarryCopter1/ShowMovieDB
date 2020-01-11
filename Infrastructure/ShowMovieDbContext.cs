@@ -13,7 +13,7 @@ namespace Infrastructure
         {
         }
 
-        public DbSet<Awards> Categories { get; set; }
+        public DbSet<Award> Categories { get; set; }
 
         public DbSet<People> Peoples { get; set; }
 

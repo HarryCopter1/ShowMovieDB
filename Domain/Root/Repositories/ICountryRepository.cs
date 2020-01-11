@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace Domain.Root.Repositories
 {
-    public interface ICountryRepository : IRepository<Awards, int>
+    public interface ICountryRepository : IRepository<Country, int>
     {
     }
 }

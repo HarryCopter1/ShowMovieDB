@@ -9,9 +9,9 @@ using System.Threading.Tasks;
 
 namespace Infrastructure.Repositories
 {
-    public class AwardsRepository : Repository<Awards, int>, IAwardsRepository
+    public class AwardRepository : Repository<Award, int>, IAwardRepository
     {
-        public AwardsRepository(DbContext databaseContext)
+        public AwardRepository(DbContext databaseContext)
         : base (databaseContext)
         {
 

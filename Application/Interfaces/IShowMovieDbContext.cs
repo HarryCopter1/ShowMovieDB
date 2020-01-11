@@ -7,7 +7,7 @@ namespace Application.Interfaces
 {
     public interface IShowMovieDbContext
     {
-        DbSet<Awards> Categories { get; set; }
+        DbSet<Award> Categories { get; set; }
 
         DbSet<People> Peoples { get; set; }
 

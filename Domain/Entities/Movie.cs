@@ -23,7 +23,7 @@ namespace Domain.Entities
 
         public ICollection<Genre> Genres { get; private set; }
 
-        public ICollection<Awards> Awards { get; private set; }
+        public ICollection<Award> Awards { get; private set; }
         
         public int Rental_Duration { get; private set; }
 

@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace Domain.Root.Repositories
 {
-    public interface IAwardsRepository : IRepository<Awards, int>
+    public interface IAwardRepository : IRepository<Award, int>
     {
 
     }

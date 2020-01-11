@@ -3,7 +3,7 @@ using System;
 
 namespace Domain.Entities
 {
-    public class Awards : EntityBase<int>
+    public class Award : EntityBase<int>
     {
         public string Name { get; private set; }
 

@@ -47,6 +47,13 @@
     <Compile Include="Root\EntityBase.cs" />
     <Compile Include="Root\Exceptions\DomainException.cs" />
     <Compile Include="Root\IRepository.cs" />
+    <Compile Include="Root\Repositories\IAwardsRepository.cs" />
+    <Compile Include="Root\Repositories\ICareerRepository.cs" />
+    <Compile Include="Root\Repositories\ICountryRepository.cs" />
+    <Compile Include="Root\Repositories\IGenreRepository.cs" />
+    <Compile Include="Root\Repositories\ILanguageRepository.cs" />
+    <Compile Include="Root\Repositories\IMovieRepository.cs" />
+    <Compile Include="Root\Repositories\IPeopleRepository.cs" />
     <Compile Include="Root\ValueObject.cs" />
   </ItemGroup>
   <ItemGroup>

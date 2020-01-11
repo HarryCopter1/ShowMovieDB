@@ -7,7 +7,7 @@ using Domain.Root;
 
 namespace Domain.Entities
 {
-    class Country : EntityBase
+    public class Country : EntityBase<int>
     {
         public string Name { get; private set; }
     }

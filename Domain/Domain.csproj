@@ -37,17 +37,17 @@
     <CodeAnalysisRuleSet>Domain.ruleset</CodeAnalysisRuleSet>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="Entities\Actor.cs" />
-    <Compile Include="Entities\City.cs" />
+    <Compile Include="Entities\Career.cs" />
+    <Compile Include="Entities\People.cs" />
+    <Compile Include="Entities\Awards.cs" />
     <Compile Include="Entities\Country.cs" />
     <Compile Include="Entities\Customer.cs" />
     <Compile Include="Entities\Genre.cs" />
     <Compile Include="Entities\Director.cs" />
     <Compile Include="Entities\Language.cs" />
     <Compile Include="Entities\Movie.cs" />
-    <Compile Include="Entities\MovieCast.cs" />
-    <Compile Include="Entities\MovieGenre.cs" />
     <Compile Include="Root\EntityBase.cs" />
+    <Compile Include="Root\Exceptions\DomainException.cs" />
     <Compile Include="Root\ValueObject.cs" />
   </ItemGroup>
   <ItemGroup>

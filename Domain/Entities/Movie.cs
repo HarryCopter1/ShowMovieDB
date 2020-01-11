@@ -24,9 +24,7 @@ namespace Domain.Entities
         public ICollection<Genre> Genres { get; private set; }
 
         public ICollection<Awards> Awards { get; private set; }
-
-        public Director Director_ID { get; private set; }
-
+        
         public int Rental_Duration { get; private set; }
 
         public float IMDBRating { get; private set; }
